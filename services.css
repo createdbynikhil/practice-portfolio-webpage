@@ -1,0 +1,140 @@
+a{
+    color: black;
+}
+ body {
+  font-family: Montserrat;
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  scroll-behavior: smooth;
+  }
+    nav {
+      color: whitesmoke;
+  font-size: 24px;
+    margin-top: 20px;
+      margin-left: 20px;
+      }
+nav ul {
+  list-style-type: none;
+    margin: 0;
+      padding: 0;
+      }
+nav ul li {
+  display: inline-block;
+  }
+nav ul li a {
+  justify-content: center;
+    display: block;
+      color: gainsboro;
+        text-decoration: none;
+          padding: 4px 12px;
+            text-decoration: none;
+            }
+button a{
+    text-decoration: none;
+        color: white;
+        }
+             nav ul li a:hover{
+            color: white;
+                border: none;
+                    border-radius: 25px;
+                    }
+   .contact-btn{
+    color: white;
+        border: none;
+            border-radius: 25px;
+                padding: 10px 20px;
+                    font-weight: bold;
+                        font-size: 25px;
+                            margin-left: 30px;
+                                text-align: right;
+                                    background-image: linear-gradient(to right, #6656f7, #6356ff);
+                                        transition: background 0.3s ease;
+                                        }
+   .contact-btn:hover{
+                                            background: darkslateblue;
+                                                color: white;
+                                                }
+
+h1{
+    color: white;
+        text-align: center;
+            margin: 35px;
+                margin-bottom: 100px;
+                    margin-top: 90px;
+                        font-size: 46px;
+                            text-decoration: underline 8px #6656f7;
+                            }
+ container {
+                                      max-width: 900px;
+                                            margin: 0 auto;
+                                                }
+    .service-card {
+          background-color: #252525;
+                color: white;
+                      border-radius: 15px;
+                            box-shadow: 0 2px  px  4px rgba(0, 0, 0, 0.1);
+                                  margin:10px;
+                                        padding: 35px;
+                                              margin-bottom:25px;
+                                                    display: inline-block;
+                                                          width: calc(47% - 5px);
+                                                                box-sizing: border-box;
+                                                                      vertical-align: top;
+                                                                            height: 100%;
+                                                                                  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .service-card h2 {
+          margin-top: 0;
+                font-size: 24px;
+                      color: white;
+                          }
+    .service-card p {
+          margin-bottom: 20px;
+              }
+                  .service-card a{
+                          text-decoration: none;
+                                  color: white;
+                                          background-color:#6656f7 ;
+                                                  border-radius: 15px        ;
+                                                          padding: 10px;
+                                                                  box-shadow: 0 3px  6px  0px rgba(0, 0, 0, 0.2);             
+                                                                      }
+                                                     .service-card:hover{
+                                                                                  background: #6656f7;
+                                                                                          border: none;
+                                                                                              }
+                                                                                           .service-card .button {
+                                                                                                        display: inline-block;
+                                                                                                              padding:10px 20px;
+                                                                                                                    background-color: #black;
+                                                                                                                          color: #fff;
+                                                                                                                                text-decoration: none;
+                     font-weight: bold;                                                                                                               border-radpx: 4px   px;
+    }
+    .service-card .button:hover {
+              background-color: #555;
+                            }
+     @media (max-width: 600px) {
+                                          .service-card {
+                                                            width: 100%;
+                                                                                    }
+                                                                                                                }
+/* footer */
+.footer {
+      background-color:#181818;
+            color: white;
+                  width: 100%;
+                        padding: 20px;
+                              text-align: center;
+                                    margin-top: 30px;
+                                        }
+    .footer a {
+          color: white;
+                text-decoration: none;
+                    }
+#footer{
+    width: 100px;
+        display: inline;
+            margin: auto;
+}
